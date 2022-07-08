@@ -1,6 +1,6 @@
 (() => {
     /**
-     * Create array matrix and fill it with random numbers.
+     * Create array matrix of X,Y and fill it with random numbers.
      * 
      */
      const createArrayMatrix =  (x, y) => {
@@ -18,5 +18,5 @@
         return Math.floor(Math.random() * (max - min) + min);
     }
 
-    console.log(createArrayMatrix(66,6));
+    //console.log(createArrayMatrix(66,6));
 })();
