@@ -1,9 +1,9 @@
-function createArrayMatrix(boxContent, {rows, columns}){
-    const matrix = new Array(rows).fill().map(() => {
-        return new Array(columns).fill().map(() => boxContent());
-    });
+function createArrayMatrix(boxContent, { rows, columns }) {
+  const matrix = new Array(rows).fill().map(() => {
+    return new Array(columns).fill().map(() => boxContent());
+  });
 
-    return matrix;
+  return matrix;
 }
 
-export {createArrayMatrix};
+export { createArrayMatrix };
