@@ -1,5 +1,5 @@
-import { getRandomNumber } from "../utility/numbers";
-import { createArrayMatrix } from "../utility/arrays";
+import { getRandomNumber } from "../../utility/numbers";
+import { createArrayMatrix } from "../../utility/arrays";
 
 const MineSweeper = function (props) {
   const { rows, columns, maxMines, MINE } = props;
